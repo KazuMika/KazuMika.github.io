@@ -76,23 +76,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 東京ガスiネット
-        link:
-        # link_text: boringcompany.com
+        title: ティアンドエス株式会社
+        link: www.tecsvc.co.jp/
+        link_text: ティアンドエス株式会社
         # sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        caption: November 2023 -
+        ## quote: |
         description: | # this will include new lines to allow paragraphs
     content:
       - layout: left
         title: 東京ガスiネット
-        link:
-        # link_text: boringcompany.com
+        link: www.tg-inet.co.jp/
+        link_text: 東京ガスiネット
         # sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        caption: November 2020 - 2023
+        ## quote: |
         description: | # this will include new lines to allow paragraphs
 
 
