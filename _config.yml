@@ -17,9 +17,9 @@ darkmode: false
 # Social links
 # twitter_username: facespics
 github_username:  KazuMika
-facebook_username:  100030706333853
-orcid_username: www.orcid.org/0009-0002-4896-9016
-stackoverflow_username: "00000001"
+facebook_username:
+orcid_username: 0009-0002-4896-9016
+# stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
@@ -50,8 +50,10 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
 
   2021年 東京工業大学工学院経営工学系にて学士号取得。同年8月よりコーネル大学大学院コンピュータサイエンス専攻博士課程にて反実仮想学習やランキングの公平性に関する研究を行う。これまでにNeurIPS・ICML・KDD・RecSys・WSDMなどの国際会議にて学術論文を発表。また複数の国内企業と連携して、反実仮想学習の応用研究に従事。2020年 イェール大学助教の成田悠輔らと共に半熟仮想株式会社を創業。2021年 日本オープンイノベーション大賞内閣総理大臣賞を受賞。2022年 Forbes Japan 30 Under 30に選出。孫正義育英財団第6期生。船井情報科学振興財団2021年度奨学生。WSDM2022 Best Paper Runner-Up Award。著書に『施策デザインのための機械学習入門』(技術評論社)。
+  大学では「細粒度なゴミ排出量データ取得手法」をテーマに研究活動をしていた。細粒度なゴミ排出量データには都市と住民に関する情報含まれる一方、このようなデータを収集する実用的な手法は欠如している。研究では、 深層学習による物体検出を用いた細粒度ゴミ排出量データを収集するセンシングシステムの構築を行なった。
 
 content:
+
   - title: 学歴 # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -60,6 +62,7 @@ content:
         caption: 2020 -
         sub_title: 政策・メディア研究科後期博士課程
         description: | # this will include new lines to allow paragraphs
+
       - layout: left
         title: 慶應義塾大学大学院
         caption: 2019 - 2020
@@ -71,62 +74,63 @@ content:
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
 
-
   - title: 職務経歴 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: ティアンドエス株式会社
-        link: www.tecsvc.co.jp/
-        link_text: ティアンドエス株式会社
-        # sub_title: Senior Network System Administrator
-        caption: November 2023 -
-        ## quote: |
+        title: The Boring Company
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-    content:
-      - layout: left
-        title: 東京ガスiネット
-        link: www.tg-inet.co.jp/
-        link_text: 東京ガスiネット
-        # sub_title: Senior Network System Administrator
-        caption: November 2020 - 2023
-        ## quote: |
-        description: | # this will include new lines to allow paragraphs
-
-
-  - title: 論文
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
 
   - title: 受賞歴
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+        - [WSN-IoT AWARD 2019 最優秀賞](https://www.sfc.keio.ac.jp/news/013477.html)
+        - [2018年度人工知能学会全国大会全国大会学生奨励賞](https://www.sfc.keio.ac.jp/news/013478.html)
 
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
-  - title: 競争的資金
+  - title: 論文
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+        - Wenhao Huang, Kazuhiro Mikami, Yin Chen, and Jin Nakazawa. 2024. Real-Time Image-Based Automotive Sensing： A Practice on Fine-Grained Garbage Disposal. In Proceedings of the 13th International Conference on the Internet of Things (IoT 23). Association for Computing Machinery, New York, NY, USA, 138–145. https://doi.org/10.1145/3627050.362705
+        - 三上量弘, 陳 寅, 中澤 仁 “DeepCounter：深層学習を用いた細粒度なゴミ排出量データ収集手法”, 情報処理学会論文誌, 61(1), pp.36 - 48, 2020-01-1
+        - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
+        - Kazuhiro Mikami, Yin Chen, Jin Nakazawa "Poster:DeepCounter: Using Deep Learning to Count Garbage Bags", In The 16th ACM Conference on Embedded Networked Sensor Systems(SenSys 18), Nov, 2018, Shenzhen, China. DOI:10.1145/3274783.3275167
+        - 三上量弘, 河野慎, 陳寅,中澤 仁,“深層学習を用いたゴミ収集動画からゴミ袋個数の測定 “2018年度 人工知能学会全国大会（第32回) pp. 1-4
 
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+  - title: 獲得した競争的研究資金
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - 2021年度　博士課程学生研究支援プログラム (1,200,000円)
+      - 2019年度 森泰吉郎記念研究振興基金研究者育成費 (270,000円)
+      - Sylff Fellowship 2019 (1,000,000円)
+      - 山岸学生プロジェクト支援制度 2018 (240,000円)
+
+  - title: スキル
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Python(7年程度、主に機械学習分野)
+      - Linux(7年程度、個人のGPUサーバを３台所持し維持管理している)
+      - Git(5年程度)
+      - RDBMS(MySQL,PostgreSQL,SQLite)
+      -
+
+  - title: 資格
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - TOEIC 935
+      - G検定
+      - 基本情報技術者資格
+
+
 
   #   - title: Projects # Title for the section
   #     layout: list # Type of content section (list/text)
@@ -147,6 +151,8 @@ content:
   #         description: | # this will include new lines to allow paragraphs
   #           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
   #
+
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
