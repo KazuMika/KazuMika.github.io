@@ -30,10 +30,10 @@ orcid_username: 0009-0002-4896-9016
 # googleplus_username: +jekyll
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+ - title: Google Scholar
+   icon: fa-brands fa-google-scholar
+   url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -47,10 +47,7 @@ orcid_username: 0009-0002-4896-9016
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-
-  2021年 東京工業大学工学院経営工学系にて学士号取得。同年8月よりコーネル大学大学院コンピュータサイエンス専攻博士課程にて反実仮想学習やランキングの公平性に関する研究を行う。これまでにNeurIPS・ICML・KDD・RecSys・WSDMなどの国際会議にて学術論文を発表。また複数の国内企業と連携して、反実仮想学習の応用研究に従事。2020年 イェール大学助教の成田悠輔らと共に半熟仮想株式会社を創業。2021年 日本オープンイノベーション大賞内閣総理大臣賞を受賞。2022年 Forbes Japan 30 Under 30に選出。孫正義育英財団第6期生。船井情報科学振興財団2021年度奨学生。WSDM2022 Best Paper Runner-Up Award。著書に『施策デザインのための機械学習入門』(技術評論社)。
-  大学では「細粒度なゴミ排出量データ取得手法」をテーマに研究活動をしていた。細粒度なゴミ排出量データには都市と住民に関する情報含まれる一方、このようなデータを収集する実用的な手法は欠如している。研究では、 深層学習による物体検出を用いた細粒度ゴミ排出量データを収集するセンシングシステムの構築を行なった。
+about_content: | 2021年 東京工業大学工学院経営工学系にて学士号取得。同年8月よりコーネル大学大学院コンピュータサイエンス専攻博士課程にて反実仮想学習やランキングの公平性に関する研究を行う。これまでにNeurIPS・ICML・KDD・RecSys・WSDMなどの国際会議にて学術論文を発表。また複数の国内企業と連携して、反実仮想学習の応用研究に従事。2020年 イェール大学助教の成田悠輔らと共に半熟仮想株式会社を創業。2021年 日本オープンイノベーション大賞内閣総理大臣賞を受賞。2022年 Forbes Japan 30 Under 30に選出。孫正義育英財団第6期生。船井情報科学振興財団2021年度奨学生。WSDM2022 Best Paper Runner-Up Award。著書に『施策デザインのための機械学習入門』(技術評論社)。大学では「細粒度なゴミ排出量データ取得手法」をテーマに研究活動をしていた。細粒度なゴミ排出量データには都市と住民に関する情報含まれる一方、このようなデータを収集する実用的な手法は欠如している。研究では、 深層学習による物体検出を用いた細粒度ゴミ排出量データを収集するセンシングシステムの構築を行なった。
 
 content:
 
@@ -89,8 +86,7 @@ content:
         # link_text: boringcompany.com
         # sub_title: Project Leader
         caption:  2020.4 - 2023.6
-        description: | # this will include new lines to allow paragraphs
-
+        description: | デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
 
   - title: 受賞歴
     layout: text
@@ -134,26 +130,6 @@ content:
       - 基本情報技術者資格
 
 
-
-  #   - title: Projects # Title for the section
-  #     layout: list # Type of content section (list/text)
-  #     content:
-  #       - layout: top-middle
-  #         title: Super awesome project
-  #         link: github.com/sproogen
-  #         # link_text: Project Website
-  #         additional_links:
-  #           - title:  sproogen/modern-resume-theme
-  #             icon: fab fa-github
-  #             url: github.com/sproogen/modern-resume-theme
-  #           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           #   icon: fab fa-github
-  #           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #         quote: >
-  #           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #         description: | # this will include new lines to allow paragraphs
-  #           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  #
 
 
 # Footer
