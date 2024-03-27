@@ -75,7 +75,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: ティアンドエス株式会社
+        title: ティアンドエス
         link: www.tecsvc.co.jp/
         link_text: boringcompany.com
         sub_title: Project Leader
@@ -83,7 +83,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
       - layout: left
-        title: 東京ガスiネット株式会社
+        title: 東京ガスiネット
         link: www.tg-inet.co.jp/
         link_text: boringcompany.com
         sub_title: Project Leader
