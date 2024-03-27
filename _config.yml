@@ -17,7 +17,7 @@ darkmode: false
 # Social links
 # twitter_username: facespics
 github_username:  KazuMika
-facebook_username: 100030706333853
+# facebook_username: 100030706333853
 orcid_username: 0009-0002-4896-9016
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -30,10 +30,10 @@ orcid_username: 0009-0002-4896-9016
 # googleplus_username: +jekyll
 
 # Additional icon links
-additional_links:
- - title: Google Scholar
-   icon: fa-brands fa-google-scholar
-   url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
+# additional_links:
+#  - title: Google Scholar
+#    icon: fa-brands fa-google-scholar
+#    url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,17 +48,18 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  2021年 東京工業大学工学院経営工学系にて学士号取得。同年8月よりコーネル大学大学院コンピュータサイエンス専攻博士課程にて反実仮想学習やランキングの公平性に関する研究を行う。これまでにNeurIPS・ICML・KDD・RecSys・WSDMなどの国際会議にて学術論文を発表。また複数の国内企業と連携して、反実仮想学習の応用研究に従事。2020年 イェール大学助教の成田悠輔らと共に半熟仮想株式会社を創業。2021年 日本オープンイノベーション大賞内閣総理大臣賞を受賞。2022年 Forbes Japan 30 Under 30に選出。孫正義育英財団第6期生。船井情報科学振興財団2021年度奨学生。WSDM2022 Best Paper Runner-Up Award。著書に『施策デザインのための機械学習入門』(技術評論社)。大学では「細粒度なゴミ排出量データ取得手法」をテーマに研究活動をしていた。細粒度なゴミ排出量データには都市と住民に関する情報含まれる一方、このようなデータを収集する実用的な手法は欠如している。研究では、 深層学習による物体検出を用いた細粒度ゴミ排出量データを収集するセンシングシステムの構築を行なった。
-
+  test
+  #   2021年 東京工業大学工学院経営工学系にて学士号取得。同年8月よりコーネル大学大学院コンピュータサイエンス専攻博士課程にて反実仮想学習やランキングの公平性に関する研究を行う。これまでにNeurIPS・ICML・KDD・RecSys・WSDMなどの国際会議にて学術論文を発表。また複数の国内企業と連携して、反実仮想学習の応用研究に従事。2020年 イェール大学助教の成田悠輔らと共に半熟仮想株式会社を創業。2021年 日本オープンイノベーション大賞内閣総理大臣賞を受賞。2022年 Forbes Japan 30 Under 30に選出。孫正義育英財団第6期生。船井情報科学振興財団2021年度奨学生。WSDM2022 Best Paper Runner-Up Award。著書に『施策デザインのための機械学習入門』(技術評論社)。大学では「細粒度なゴミ排出量データ取得手法」をテーマに研究活動をしていた。細粒度なゴミ排出量データには都市と住民に関する情報含まれる一方、このようなデータを収集する実用的な手法は欠如している。研究では、 深層学習による物体検出を用いた細粒度ゴミ排出量データを収集するセンシングシステムの構築を行なった。
+  #
 content:
-
   - title: 学歴 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-right
         title: 慶應義塾大学大学院
         caption: 2020 -
         sub_title: 政策・メディア研究科後期博士課程
+        quote: >
         description: | # this will include new lines to allow paragraphs
       - layout: left
         title: 慶應義塾大学大学院
@@ -68,16 +69,16 @@ content:
       - layout: left
         title: 慶應義塾大学
         caption: 2016 - 2019
+        quote: >
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
-
   - title: 職務経歴 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: right
         title: ティアンドエス株式会社
         link: www.tecsvc.co.jp/
-        # link_text: boringcompany.com
+        link_text: boringcompany.com
         sub_title: Project Leader
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
@@ -85,19 +86,16 @@ content:
       - layout: left
         title: 東京ガスiネット株式会社
         link: www.tg-inet.co.jp/
-        # link_text: boringcompany.com
-        # sub_title: Project Leader
+        link_text: boringcompany.com
+        sub_title: Project Leader
         caption:  2020.4 - 2023.6
         description: |
           デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
-
   - title: 受賞歴
     layout: text
     content: | # this will include new lines to allow paragraphs
         - [WSN-IoT AWARD 2019 最優秀賞](https://www.sfc.keio.ac.jp/news/013477.html)
         - [2018年度人工知能学会全国大会全国大会学生奨励賞](https://www.sfc.keio.ac.jp/news/013478.html)
-
-
   - title: 論文
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -106,8 +104,6 @@ content:
         - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
         - Kazuhiro Mikami, Yin Chen, Jin Nakazawa "Poster:DeepCounter: Using Deep Learning to Count Garbage Bags", In The 16th ACM Conference on Embedded Networked Sensor Systems(SenSys 18), Nov, 2018, Shenzhen, China. DOI:10.1145/3274783.3275167
         - 三上量弘, 河野慎, 陳寅,中澤 仁,“深層学習を用いたゴミ収集動画からゴミ袋個数の測定 “2018年度 人工知能学会全国大会（第32回) pp. 1-4
-
-
   - title: 獲得した競争的研究資金
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -115,7 +111,6 @@ content:
       - 2019年度 森泰吉郎記念研究振興基金研究者育成費 (270,000円)
       - Sylff Fellowship 2019 (1,000,000円)
       - 山岸学生プロジェクト支援制度 2018 (240,000円)
-
   - title: スキル
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -123,8 +118,6 @@ content:
       - Linux(7年程度、個人のGPUサーバを３台所持し維持管理している)
       - Git(5年程度)
       - RDBMS(MySQL,PostgreSQL,SQLite)
-      -
-
   - title: 資格
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -132,14 +125,12 @@ content:
       - G検定
       - 基本情報技術者資格
 
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
@@ -147,16 +138,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
