@@ -17,7 +17,7 @@ darkmode: false
 # Social links
 # twitter_username: facespics
 github_username:  KazuMika
-# facebook_username: 100030706333853
+facebook_username: 100030706333853
 orcid_username: 0009-0002-4896-9016
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -30,10 +30,10 @@ orcid_username: 0009-0002-4896-9016
 # googleplus_username: +jekyll
 
 # Additional icon links
-# additional_links:
-#  - title: Google Scholar
-#    icon: fa-brands fa-google-scholar
-#    url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
+additional_links:
+  - title: Google Scholar
+    icon: fa-brands fa-google-scholar
+    url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
