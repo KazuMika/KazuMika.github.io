@@ -81,13 +81,15 @@ content:
         sub_title: Project Leader
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
+          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
       - layout: left
         title: 東京ガスiネット株式会社
         link: www.tg-inet.co.jp/
         # link_text: boringcompany.com
         # sub_title: Project Leader
         caption:  2020.4 - 2023.6
-        description: | デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
+        description: |
+          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
 
   - title: 受賞歴
     layout: text
