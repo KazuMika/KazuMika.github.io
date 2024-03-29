@@ -32,7 +32,7 @@ orcid_username: 0009-0002-4896-9016
 # Additional icon links
 additional_links:
  - title: Google Scholar
-   icon: fa fa-google-scholar
+   icon: fa-google-scholar
    url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -80,7 +80,7 @@ content:
         title: ティアンドエス
         link: www.tecsvc.co.jp/
         link_text: www.tecsvc.co.jp
-        sub_title: Project Leader
+        sub_title: chief engineer
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
           デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
@@ -88,7 +88,7 @@ content:
         title: 東京ガスiネット
         link: www.tg-inet.co.jp
         link_text: www.tg-inet.co.jp
-        #  sub_title: Project Leader
+        # sub_title: chief engineer
         caption:  2020.4 - 2023.6
         description: |
           デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
