@@ -53,6 +53,25 @@ about_content: |
   2019年慶應義塾大学環境情報学部にて学士号取得。2020年同大学院政策・メディア研究科にて修士号取得。2020年より同博士課程に進学し、機械学習とIoTによる持続的かつリアルタイムの都市データの取得・利活用の研究を行う。特に、深層学習モデルをエッジでリアルタイムに処理を行うためのアルゴリズム開発を現在の研究テーマとする。博士進学と同時に2020年に東京ガスiネットに入社、システムエンジニアとして、webアプリケーションの開発及び維持管理を行う。2023年7月よりティアンドエス株式会社に入社し、深層学習を用いた調査・開発を行っている。2018年度人工知能学会全国大会全国大会学生奨励賞、2019年度WSN-IoT AWARD 最優秀賞をそれぞれ受賞。2021年度博士課程学生研究支援プログラム採択。2017年度学部・大学院修士4年一貫教育プログラムに採択され、学士号を3年、修士号を1年で取得。
 
 content:
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ティアンドエス
+        link: www.tecsvc.co.jp/
+        link_text: www.tecsvc.co.jp
+        sub_title: chief engineer
+        caption:  2023.7 - 現在
+        description: | # this will include new lines to allow paragraphs
+          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
+      - layout: left
+        title: 東京ガスiネット
+        link: www.tg-inet.co.jp
+        link_text: www.tg-inet.co.jp
+        # sub_title: chief engineer
+        caption:  2020.4 - 2023.6
+        description: |
+          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -74,27 +93,6 @@ content:
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
           学部では、
-
-
-  - title: Work Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: ティアンドエス
-        link: www.tecsvc.co.jp/
-        link_text: www.tecsvc.co.jp
-        sub_title: chief engineer
-        caption:  2023.7 - 現在
-        description: | # this will include new lines to allow paragraphs
-          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
-      - layout: left
-        title: 東京ガスiネット
-        link: www.tg-inet.co.jp
-        link_text: www.tg-inet.co.jp
-        # sub_title: chief engineer
-        caption:  2020.4 - 2023.6
-        description: |
-          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
   - title: Award
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -130,7 +128,7 @@ content:
     layout: text
 
     content: | # this will include new lines to allow paragraphs
-      - [細粒度ゴミ排出量データによる持続的都市創造](https://www.youtube.com/watch?v=wFDw6fpStxs) <img src="images/youtube.png" width="2%">
+      - [細粒度ゴミ排出量データによる持続的都市創造(ORF2019)](https://www.youtube.com/watch?v=wFDw6fpStxs) <img src="images/youtube.png" width="2%">
 
 
 # Footer
