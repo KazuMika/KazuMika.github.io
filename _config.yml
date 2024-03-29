@@ -56,7 +56,7 @@ content:
     content:
       - layout: left
         title: 慶應義塾大学大学院
-        caption: 2020 -
+        caption: 2020 - 現在
         sub_title: 政策・メディア研究科後期博士課程
         quote: >
         description: | # this will include new lines to allow paragraphs
@@ -71,22 +71,24 @@ content:
         quote: >
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
+
+
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: ティアンドエス
         link: www.tecsvc.co.jp/
-        link_text: boringcompany.com
+        link_text: www.tecsvc.co.jp
         sub_title: Project Leader
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
           デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
       - layout: left
         title: 東京ガスiネット
-        link: www.tg-inet.co.jp/
-        link_text: boringcompany.com
-        sub_title: Project Leader
+        link: www.tg-inet.co.jp
+        link_text: www.tg-inet.co.jp
+        #  sub_title: Project Leader
         caption:  2020.4 - 2023.6
         description: |
           デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
@@ -103,6 +105,7 @@ content:
         - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
         - Kazuhiro Mikami, Yin Chen, Jin Nakazawa "Poster:DeepCounter: Using Deep Learning to Count Garbage Bags", In The 16th ACM Conference on Embedded Networked Sensor Systems(SenSys 18), Nov, 2018, Shenzhen, China. DOI:10.1145/3274783.3275167
         - 三上量弘, 河野慎, 陳寅,中澤 仁,“深層学習を用いたゴミ収集動画からゴミ袋個数の測定 “2018年度 人工知能学会全国大会（第32回) pp. 1-4
+        - M. Kawano, K. Mikami, S. Yokoyama, T. Yonezawa and J. Nakazawa, "Road marking blur detection with drive recorder," 2017 IEEE International Conference on Big Data (Big Data), Boston, MA, USA, 2017, pp. 4092-4097, doi: 10.1109/BigData.2017.8258427.
   - title: Competitive Research Fund
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -114,7 +117,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Python(7年程度、主に機械学習分野)
-      - Linux(7年程度、個人のGPUサーバを３台所持し維持管理している)
+      - Linux(7年程度、個人のGPUサーバを３台所持し維持管理)
       - Git(5年程度)
       - RDBMS(MySQL,PostgreSQL,SQLite)
       - TOEIC 935
