@@ -130,7 +130,7 @@ content:
     layout: text
 
     content: | # this will include new lines to allow paragraphs
-      - [細粒度ゴミ排出量データによる持続的都市創造](https://www.youtube.com/watch?v=wFDw6fpStxs) <img src="images/youtube.png" width="10%">
+      - [細粒度ゴミ排出量データによる持続的都市創造](https://www.youtube.com/watch?v=wFDw6fpStxs) <img src="images/youtube.png" width="2%">
 
 
 # Footer
