@@ -90,13 +90,13 @@ content:
         caption: 2019.4 - 2020.3
         sub_title: 政策・メディア研究科修士課程
         description: | # this will include new lines to allow paragraphs
-          - 細粒度ゴミ排出量センシングシステムの社会実装：
+          - ゴミ計数アルゴリズムの改良及び細粒度ゴミ排出量センシングシステムの実証研究：物体検出モデルやトラッキングアルゴリズムを改良。ゴミセンシングシステムを実際藤沢市を走行する清掃車に導入し、一か月ほど実証実験を行う。また取得したデータを活用するためのプロトタイプの可視化アプリケーションを開発
       - layout: left
         title: 慶應義塾大学
         caption: 2016.4 - 2019.3
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
-          - 細粒度ゴミ排出量センシング手法の研究：
+          - 細粒度ゴミ排出量センシング手法の研究：清掃車後方に取り付けられたドライブレコーダ動画をエッジデバイス上で動作する物体検出モデルをベースとしたゴミ袋計数アルゴリズム（DeepCounter)やGPSデータを合わせ細粒度なゴミ排出量データをセンシングするシステムの研究開発
   - title: Award
     layout: text
     content: | # this will include new lines to allow paragraphs
