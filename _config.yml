@@ -60,7 +60,7 @@ content:
         title: ティアンドエス
         link: www.tecsvc.co.jp/
         link_text: www.tecsvc.co.jp
-        sub_title: chief engineer
+        sub_title: 機械学習エンジニア
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
           - 2D/3D骨格データ抽出：複数台カメラの映像からPose Estimationモデルにより2D骨格データを抽出し、キャリブレーション及び三角測量とRANSACにより2Dから3D骨格データを抽出、3Dから2Dを再投影し元のデータ補正をするアプリケーションの開発
