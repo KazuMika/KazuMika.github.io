@@ -5,7 +5,10 @@ favicon: images/favicon.ico
 # resume
 # https://www.cakeresume.com/resume-editor/kazuhiro-mikami/edit
 # Content configuration version
-version: 3
+version: 2
+
+
+
 
 # Personal info
 name: 三上 量弘 (Kazuhiro Mikami)

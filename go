@@ -8,6 +8,11 @@ if [ ! -d "${LOG_DIR}" ]; then
     mkdir "${LOG_DIR}";
 fi
 
+
+
+
+
+
 export PYTHONPATH=${PYTHONPATH}:${HERE}/src
 export PYTHONPATH=${PYTHONPATH}:${HERE}/src/utils
 export PYTHONPATH=${PYTHONPATH}:${HERE}/src/pycalib
