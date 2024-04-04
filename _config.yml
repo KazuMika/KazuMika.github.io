@@ -63,9 +63,9 @@ content:
         sub_title: chief engineer
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
-          - 2D/3D骨格データ抽出：複数台カメラの映像からPose Estimationモデルにより2D骨格データを抽出し、キャリブレーション及び三角測量とRANSACにより2Dから3D骨格データを抽出、3Dから2Dを再投影し元のデータ補正をするアプリケーション開発
-          - 基盤の良品画像から不良品画像生成：1枚のRGB画像からStable Diffusion inpaintingやGAN(pix2pix,Deepfillv2)、深度推定モデルを用いて、RGBや高さデータ、白色画像など複数の不良品画像を生成するアプリケーション開発
-          - 基盤の各部品検出アプリケーションの開発：物体検出モデル(YOLOX,YOLOv8)及び画像分割手法を用いて、基盤にある部品及び電極を検出
+          - 2D/3D骨格データ抽出：複数台カメラの映像からPose Estimationモデルにより2D骨格データを抽出し、キャリブレーション及び三角測量とRANSACにより2Dから3D骨格データを抽出、3Dから2Dを再投影し元のデータ補正をするアプリケーションの開発
+          - 基盤の良品画像から不良品画像生成：1枚のRGB画像からStable Diffusion inpaintingやGAN(pix2pix,Deepfillv2)、深度推定モデルを用いて、RGBや高さデータ、白色画像など複数の不良品画像を生成するアプリケーションの開発
+          - 基盤の各部品及び電極検出：物体検出モデル(YOLOX,YOLOv8)及び画像分割手法を用いて、基盤にある部品及び電極を検出するアプリケーションの開発
       - layout: left
         title: 東京ガスiネット
         link: www.tg-inet.co.jp
@@ -81,19 +81,22 @@ content:
     content:
       - layout: left
         title: 慶應義塾大学大学院
-        caption: 2020 - 現在
+        caption: 2020.4 - 2025.3 修了予定
         sub_title: 政策・メディア研究科後期博士課程
         description: | # this will include new lines to allow paragraphs
+          -
       - layout: left
         title: 慶應義塾大学大学院
-        caption: 2019 - 2020
+        caption: 2019.4 - 2020.3
         sub_title: 政策・メディア研究科修士課程
         description: | # this will include new lines to allow paragraphs
+          - 細粒度ゴミ排出量センシングシステムの社会実装：
       - layout: left
         title: 慶應義塾大学
-        caption: 2016 - 2019
+        caption: 2016.4 - 2019.3
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
+          - 細粒度ゴミ排出量センシング手法の研究：
   - title: Award
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -102,7 +105,7 @@ content:
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-        - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Hin Nakazawa. Demo： Stochastic Scheduling to Accelerating Mobile Sensing on Object-sparse Video Data.
+      - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Hin Nakazawa. Demo：Stochastic Scheduling to Accelerating Mobile Sensing on Object-sparse Video Data. 22th Conference on the ACM MobiSys.
         - Wenhao Huang, Kazuhiro Mikami, Yin Chen, and Jin Nakazawa. 2024. Real-Time Image-Based Automotive Sensing： A Practice on Fine-Grained Garbage Disposal. In Proceedings of the 13th International Conference on the Internet of Things (IoT 23). Association for Computing Machinery, New York, NY, USA, 138–145. https://doi.org/10.1145/3627050.362705
         - 三上量弘, 陳 寅, 中澤 仁 “DeepCounter：深層学習を用いた細粒度なゴミ排出量データ収集手法”, 情報処理学会論文誌, 61(1), pp.36 - 48, 2020-01-1
         - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
