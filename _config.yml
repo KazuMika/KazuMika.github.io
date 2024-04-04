@@ -73,6 +73,9 @@ content:
         # sub_title: chief engineer
         caption:  2020.4 - 2023.6
         description: |
+          - オンプレからクラウドへの移行：オンプレにあるアプリケーションをAzureのVMにDockerで移行
+          - 社内製Webアプリケーションフレームワークの保守、問い合わせ対応
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -99,6 +102,7 @@ content:
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
+        - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Hin Nakazawa. Demo： Stochastic Scheduling to Accelerating Mobile Sensing on Object-sparse Video Data.
         - Wenhao Huang, Kazuhiro Mikami, Yin Chen, and Jin Nakazawa. 2024. Real-Time Image-Based Automotive Sensing： A Practice on Fine-Grained Garbage Disposal. In Proceedings of the 13th International Conference on the Internet of Things (IoT 23). Association for Computing Machinery, New York, NY, USA, 138–145. https://doi.org/10.1145/3627050.362705
         - 三上量弘, 陳 寅, 中澤 仁 “DeepCounter：深層学習を用いた細粒度なゴミ排出量データ収集手法”, 情報処理学会論文誌, 61(1), pp.36 - 48, 2020-01-1
         - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
