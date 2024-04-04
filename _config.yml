@@ -63,12 +63,9 @@ content:
         sub_title: chief engineer
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
-          - 骨格データ抽出：
-          - 自動走行のためのマップ技術調査
-          - 良品画像から不良品画像生成：基盤
-          - 基盤の各部品検出アプリケーションの開発：
-
-
+          - 2D/3D骨格データ抽出：複数台カメラの映像からPose Estimationモデルにより2D骨格データを抽出し、キャリブレーション及び三角測量とRANSACにより2Dから3D骨格データを抽出、3Dから2Dを再投影し元のデータ補正をするアプリケーション開発
+          - 基盤の良品画像から不良品画像生成：1枚のRGB画像からStable Diffusion inpaintingやGAN(pix2pix,Deepfillv2)、深度推定モデルを用いて、RGBや高さデータ、白色画像など複数の不良品画像を生成するアプリケーション開発
+          - 基盤の各部品検出アプリケーションの開発：物体検出モデル(YOLOX,YOLOv8)及び画像分割手法を用いて、基盤にある部品及び電極を検出
       - layout: left
         title: 東京ガスiネット
         link: www.tg-inet.co.jp
