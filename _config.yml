@@ -107,12 +107,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Hin Nakazawa. Demo：Stochastic Scheduling to Accelerating Mobile Sensing on Object-sparse Video Data. 22th Conference on the ACM MobiSys.
-        - Wenhao Huang, Kazuhiro Mikami, Yin Chen, and Jin Nakazawa. 2024. Real-Time Image-Based Automotive Sensing： A Practice on Fine-Grained Garbage Disposal. In Proceedings of the 13th International Conference on the Internet of Things (IoT 23). Association for Computing Machinery, New York, NY, USA, 138–145. https://doi.org/10.1145/3627050.362705
-        - 三上量弘, 陳 寅, 中澤 仁 “DeepCounter：深層学習を用いた細粒度なゴミ排出量データ収集手法”, 情報処理学会論文誌, 61(1), pp.36 - 48, 2020-01-1
-        - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
-        - Kazuhiro Mikami, Yin Chen, Jin Nakazawa "Poster:DeepCounter: Using Deep Learning to Count Garbage Bags", In The 16th ACM Conference on Embedded Networked Sensor Systems(SenSys 18), Nov, 2018, Shenzhen, China. DOI:10.1145/3274783.3275167
-        - 三上量弘, 河野慎, 陳寅,中澤 仁,“深層学習を用いたゴミ収集動画からゴミ袋個数の測定 “2018年度 人工知能学会全国大会（第32回) pp. 1-4
-        - M. Kawano, K. Mikami, S. Yokoyama, T. Yonezawa and J. Nakazawa, "Road marking blur detection with drive recorder," 2017 IEEE International Conference on Big Data (Big Data), Boston, MA, USA, 2017, pp. 4092-4097, doi: 10.1109/BigData.2017.8258427.
+      - Wenhao Huang, Kazuhiro Mikami, Yin Chen, and Jin Nakazawa. 2024. Real-Time Image-Based Automotive Sensing： A Practice on Fine-Grained Garbage Disposal. In Proceedings of the 13th International Conference on the Internet of Things (IoT 23). Association for Computing Machinery, New York, NY, USA, 138–145. https://doi.org/10.1145/3627050.362705
+      - 三上量弘, 陳 寅, 中澤 仁 “DeepCounter：深層学習を用いた細粒度なゴミ排出量データ収集手法”, 情報処理学会論文誌, 61(1), pp.36 - 48, 2020-01-1
+      - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
+      - Kazuhiro Mikami, Yin Chen, Jin Nakazawa "Poster:DeepCounter: Using Deep Learning to Count Garbage Bags", In The 16th ACM Conference on Embedded Networked Sensor Systems(SenSys 18), Nov, 2018, Shenzhen, China. DOI:10.1145/3274783.3275167
+      - 三上量弘, 河野慎, 陳寅,中澤 仁,“深層学習を用いたゴミ収集動画からゴミ袋個数の測定 “2018年度 人工知能学会全国大会（第32回) pp. 1-4
+      - M. Kawano, K. Mikami, S. Yokoyama, T. Yonezawa and J. Nakazawa, "Road marking blur detection with drive recorder," 2017 IEEE International Conference on Big Data (Big Data), Boston, MA, USA, 2017, pp. 4092-4097, doi: 10.1109/BigData.2017.8258427.
   - title: Competitive Research Fund
     layout: text
     content: | # this will include new lines to allow paragraphs
