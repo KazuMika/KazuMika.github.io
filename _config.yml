@@ -63,7 +63,12 @@ content:
         sub_title: chief engineer
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
-          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
+          - 骨格データ抽出：
+          - 自動走行のためのマップ技術調査
+          - 良品画像から不良品画像生成：基盤
+          - 基盤の各部品検出アプリケーションの開発：
+
+
       - layout: left
         title: 東京ガスiネット
         link: www.tg-inet.co.jp
@@ -71,7 +76,6 @@ content:
         # sub_title: chief engineer
         caption:  2020.4 - 2023.6
         description: |
-          デジタル推進化部アプリ基盤グループ アーキテクチャチームに配属しVM及びVM上で動作するシステムの維持管理
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -79,7 +83,6 @@ content:
         title: 慶應義塾大学大学院
         caption: 2020 - 現在
         sub_title: 政策・メディア研究科後期博士課程
-        quote: >
         description: | # this will include new lines to allow paragraphs
       - layout: left
         title: 慶應義塾大学大学院
@@ -89,10 +92,8 @@ content:
       - layout: left
         title: 慶應義塾大学
         caption: 2016 - 2019
-        quote: >
         sub_title: 環境情報学部
         description: | # this will include new lines to allow paragraphs
-          学部では、
   - title: Award
     layout: text
     content: | # this will include new lines to allow paragraphs
