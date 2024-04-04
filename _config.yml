@@ -64,6 +64,7 @@ content:
         caption:  2023.7 - 現在
         description: | # this will include new lines to allow paragraphs
           - 2D/3D骨格データ抽出：複数台カメラの映像からPose Estimationモデルにより2D骨格データを抽出し、キャリブレーション及び三角測量とRANSACにより2Dから3D骨格データを抽出、3Dから2Dを再投影し元のデータ補正をするアプリケーションの開発
+          - 自動運転のためのマップ技術：LIDARなど様々なセンサーやオープンソースデータを融合し、マップを作成及び常に更新する技術の論文調査
           - 基盤良品画像から不良品データ生成：RGB画像からStable Diffusion inpaintingやGAN(pix2pix,Deepfillv2)、深度推定モデルを用いて、RGBや白色画像、高さデータなど複数の不良品データを生成するアプリケーションの開発
           - 基盤の各部品及び電極検出：物体検出モデル(YOLOX,YOLOv8)及び画像分割手法を用いて、基盤にある部品及び電極を検出するアプリケーションの開発
       - layout: left
