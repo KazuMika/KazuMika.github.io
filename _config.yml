@@ -61,24 +61,24 @@ content:
     content:
       - layout: left
         title: 麗澤大学
-          # link: www.reitaku-u.ac.jp/
-          # link_text: www.reitaku-u.ac.jp/
+        # link: www.reitaku-u.ac.jp/
+        # link_text: www.reitaku-u.ac.jp/
         sub_title: 研究員
         caption:  2024.6 - 現在
         description: | # this will include new lines to allow paragraphs
           - 概要：ゴミ排出行動のリアルタイムセンシングおよびトレース技術を構築し、データを細粒度かつ大規模に収集。得られた家庭ゴミ排出量データを可視化し、ゲーミフィケーションを通じ個人のゴミ排出行動の変容を促すアプリ開発。
       - layout: left
         title: ティアンドエス
-          # link: www.tecsvc.co.jp/
-          # link_text: www.tecsvc.co.jp
+        # link: www.tecsvc.co.jp/
+        # link_text: www.tecsvc.co.jp
         sub_title: チーフエンジニア
         caption:  2023.7 - 2024.5
         description: | # this will include new lines to allow paragraphs
           - 概要：チーフエンジニアとして、プロトタイプのアプリの研究開発、技術調査、資料作成、モデル検証。
       - layout: left
         title: 東京ガスiネット
-          # link: www.tg-inet.co.jp
-          # link_text: www.tg-inet.co.jp
+        # link: www.tg-inet.co.jp
+        # link_text: www.tg-inet.co.jp
         # sub_title: chief engineer
         caption:  2020.4 - 2023.6
         description: |
