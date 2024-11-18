@@ -12,7 +12,7 @@ version: 2
 
 # Personal info
 name: 三上 量弘 (Kazuhiro Mikami)
-title: Research Engineer / PhD Candidate
+title: Researcher / PhD Candidate
 email: mkx1925@gmail.com
 website: www.kazumika.github.io/
 
@@ -28,7 +28,7 @@ orcid_username: 0009-0002-4896-9016
 # dribbble_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+linkedin_username: kauzhiro-mikami-304526339
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -60,16 +60,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 麗澤大学（学校法人廣池学園）
+        link: www.reitaku-u.ac.jp/
+        link_text: www.reitaku-u.ac.jp/
+        sub_title: 研究員
+        caption:  2024.6 - 現在
+        description: | # this will include new lines to allow paragraphs
+          - 概要：ゴミ排出行動のリアルタイムセンシングおよびトレース技術を構築し、データを細粒度かつ大規模に収集。得られた家庭ゴミ排出量データを可視化し、ゲーミフィケーションを通じ個人のゴミ排出行動の変容を促すアプリ開発。
+      - layout: left
         title: ティアンドエス
         link: www.tecsvc.co.jp/
         link_text: www.tecsvc.co.jp
-        sub_title: 機械学習エンジニア
-        caption:  2023.7 - 現在
+        sub_title: チーフエンジニア
+        caption:  2023.7 - 2024.5
         description: | # this will include new lines to allow paragraphs
-          - 2D/3D骨格データ抽出：複数台カメラの映像からポーズ推定モデルにより2D骨格データを抽出し、キャリブレーション及び三角測量とRANSACにより2Dから3D骨格データを抽出、3Dから2Dを再投影し元のデータ補正をするアプリケーションの開発
-          - 自動運転のためのマップ技術：LIDARなど様々なセンサーやオープンソースデータを融合し、マップを作成及び常に更新する技術の論文調査
-          - 基盤良品画像から不良品データ生成：RGB画像からStable Diffusion inpaintingやGAN(pix2pix,Deepfillv2)、深度推定モデルを用いて、RGBや白色画像、高さデータなど複数の不良品データを生成するアプリケーションの開発
-          - 基盤の各部品及び電極検出：物体検出モデル(YOLOX,YOLOv8)及び画像分割手法を用いて、基盤にある部品及び電極を検出するアプリケーションの開発
+          - 概要：チーフエンジニアとして、プロトタイプのアプリの研究開発、技術調査、資料作成、モデル検証。
       - layout: left
         title: 東京ガスiネット
         link: www.tg-inet.co.jp
@@ -77,15 +82,14 @@ content:
         # sub_title: chief engineer
         caption:  2020.4 - 2023.6
         description: |
-          - オンプレからクラウドへの移行：オンプレにあるアプリケーションをAzureのVMにDockerで移行
-          - 社内製Webアプリケーションフレームワークの保守、問い合わせ対応
+          - システムエンジニアとしてWebアプリケーションフレームワークの運用保守を担当
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 慶應義塾大学大学院
-        caption: 2020.4 - 2025.3 修了予定
+        caption: 2020.4 - 2025.3 単位取得退学予定
         sub_title: 政策・メディア研究科後期博士課程
         description: | # this will include new lines to allow paragraphs
           - 深層学習モデルをエッジでリアルタイム処理するための研究：動画の中で検出対象がないフレームを確率的スケジューリングにより効果的に選択し、計数精度の低下なく、不要なフレームの計算リソースを必要なフレームに割り当てるアルゴリズムの研究開発
@@ -95,6 +99,7 @@ content:
         sub_title: 政策・メディア研究科修士課程
         description: | # this will include new lines to allow paragraphs
           - ゴミ計数アルゴリズムの改良及び細粒度ゴミ排出量センシングシステムの実証研究：物体検出モデルやトラッキングアルゴリズムを改良。ゴミセンシングシステムを実際藤沢市を走行する清掃車に導入し、一か月ほど実証実験を行う。また取得したデータを活用するためのプロトタイプの可視化アプリケーションを開発
+
       - layout: left
         title: 慶應義塾大学
         caption: 2016.4 - 2019.3
