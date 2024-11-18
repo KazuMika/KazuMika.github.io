@@ -60,7 +60,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 麗澤大学（学校法人廣池学園）
+        title: 麗澤大学
           # link: www.reitaku-u.ac.jp/
           # link_text: www.reitaku-u.ac.jp/
         sub_title: 研究員
