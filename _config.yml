@@ -1,27 +1,20 @@
 # Site
 repository: KazuMika/KazuMika.github.io
 favicon: images/favicon.ico
-
 # resume
 # https://www.cakeresume.com/resume-editor/kazuhiro-mikami/edit
 # Content configuration version
 version: 2
-
-
-
-
 # Personal info
 name: 三上 量弘 (Kazuhiro Mikami)
-title: Researcher / PhD Candidate
+title: AI Engineer
 email: mkx1925@gmail.com
 website: www.kazumika.github.io/
-
 # Dark Mode (true/false/never)
 darkmode: false
-
 # Social links
 # twitter_username: facespics
-github_username:  KazuMika
+github_username: KazuMika
 facebook_username: quantan0
 orcid_username: 0009-0002-4896-9016
 # stackoverflow_username: "00000001"
@@ -36,9 +29,9 @@ linkedin_username: kauzhiro-mikami-304526339
 
 # Additional icon links
 additional_links:
- - title: Google Scholar
-   icon: fa fa-google
-   url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
+  - title: Google Scholar
+    icon: fa fa-google
+    url: https://scholar.google.com/citations?user=DGkjoqwAAAAJ&hl=ja&oi=sra
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -53,45 +46,61 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  2019年慶應義塾大学環境情報学部にて学士号取得。2020年同大学院政策・メディア研究科にて修士号取得。2020年より同博士課程に進学し、機械学習とIoTによる持続的かつリアルタイムの都市データの取得・利活用の研究を行う。特に、深層学習モデルをエッジでリアルタイム処理するためのアルゴリズム開発を現在の研究テーマとする。博士進学と同時に2020年に東京ガスiネットに入社、システムエンジニアとして、Webアプリケーションフレームワークの維持管理を行う。2023年7月よりティアンドエス株式会社に入社し、深層学習を用いたアプリケーション開発を行っている。2018年度人工知能学会全国大会全国大会学生奨励賞、2019年度WSN-IoT AWARD 最優秀賞をそれぞれ受賞。2019年度Sylff Fellowship、2021年度博士課程学生研究支援プログラム採択。2017年度学部・大学院修士4年一貫教育プログラムに採択され、学士号を3年、修士号を1年で取得。
-
+  現在AIエージェントエンジニアリングに関わるエンジニア。業務では、エージェントのハーネス設計・ループ制御、オーケストレーション、マルチエージェント構成、RAGパイプラインの設計・性能検証に従事。それ以前は機械学習・コンピュータビジョン分野の研究開発に携わる。
+  2020年に修士号取得後、東京ガスiネット株式会社にてWebアプリケーションフレームワークの維持管理に従事。同年より慶應義塾大学大学院政策・メディア研究科博士課程に進学し、機械学習とIoTを活用したリアルタイム都市データの取得・利活用を研究。2023年よりティアンドエス株式会社チーフエンジニアとして、深層学習アプリケーションの研究開発およびチームマネジメントを担当。2024年より麗澤大学研究員として、ゴミ排出行動のリアルタイムセンシングとゲーミフィケーションによる行動変容促進の研究開発に従事。2025年3月よりBIPROGY株式会社にて、AIエージェントやRAGを中心とする生成AIシステムの開発・性能検証に従事。2026年6月に博士公聴会に合格し、同年9月に博士号（政策・メディア）を取得予定。
+  2018年度人工知能学会全国大会学生奨励賞、2019年度WSN-IoT AWARD 最優秀賞をそれぞれ受賞。2019年度Sylff Fellowship、2021年度博士課程学生研究支援プログラム採択。2017年度学部・大学院修士4年一貫教育プログラムに採択され、学士号を3年、修士号を1年で取得。
 content:
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: BIPROGY
+        sub_title: AIエージェントエンジニア
+        caption: 2025.3 - 現在
+        description: | # this will include new lines to allow paragraphs
+          - 概要：生成AIを活用したシステムの開発および性能検証を担当。AzureおよびAWS上での設計・実装まで一貫して従事。
+          - AIエージェント開発：Claude Codeを活用した開発を推進。エージェントのハーネス設計・ループ制御（harness & loop engineering）、オーケストレーション、マルチエージェント構成の構築を担当。
+          - RAGシステムの開発・性能検証：セマンティック検索やリランキングを組み込んだRAGパイプラインを設計・実装し、評価フレームワーク（DeepEval）を用いて検索・生成品質を定量的に検証。
+      - layout: left
         title: 麗澤大学
         # link: www.reitaku-u.ac.jp/
         # link_text: www.reitaku-u.ac.jp/
         sub_title: 研究員
-        caption:  2024.6 - 現在
+        caption: 2024.6 - 2025.2
         description: | # this will include new lines to allow paragraphs
-          - 概要：ゴミ排出行動のリアルタイムセンシングおよびトレース技術を構築し、データを細粒度かつ大規模に収集。得られた家庭ゴミ排出量データを可視化し、ゲーミフィケーションを通じ個人のゴミ排出行動の変容を促すアプリ開発。
+          - 概要：ゴミ排出行動のリアルタイムセンシング・トレース技術を構築し、細粒度かつ大規模なデータ収集、可視化、ゲーミフィケーションによる行動変容促進アプリの研究開発を担当。
+          - ゴミ排出量センシングと可視化：清掃車のドライブレコーダー映像から、物体検出（YOLOv5）とIoUトラッキングによりゴミ排出量を取得するアルゴリズムを開発。低フレームレート（8fps）環境での比較検証に基づきSORTではなくIoU方式を採用し、F値を約3%向上。位置・時間情報と組み合わせた時空間可視化アプリも開発。
+          - 動画処理向け深層学習モデルの高速化：フレーム間情報に基づき必要フレームのみを確率的に選択するアルゴリズムを開発し、精度低下を軽微に抑えつつ処理速度を92%向上。
+          - 運用・マネジメント：GPUサーバ4台の構築・運用、メンバー4名の進捗管理およびミーティング運営。
       - layout: left
         title: ティアンドエス
         # link: www.tecsvc.co.jp/
         # link_text: www.tecsvc.co.jp
-        sub_title: チーフエンジニア
-        caption:  2023.7 - 2024.5
+        sub_title: チーフエンジニア（サブリーダー）
+        caption: 2023.7 - 2024.5
         description: | # this will include new lines to allow paragraphs
-          - 概要：チーフエンジニアとして、プロトタイプのアプリの研究開発、技術調査、資料作成、モデル検証。
+          - 概要：プロトタイプアプリの研究開発、技術調査、モデル検証を担当。
+          - 電子回路基板の部品検出：物体検出モデル（YOLOX）で基板上の約30種類の部品を検出。高解像度画像での精度低下に対し画像分割手法を導入し、再現率を約30%向上。
+          - 良品画像からの不良品データ生成：良品のRGB画像から不良品のRGB・白色・強調白色画像および高さデータを生成。DreamBooth Inpainting＋pix2pix＋Monodepth2を組み合わせた手法と、4種の画像をスタックした12チャネル入力の単一モデル（DeepFillv2）による手法を考案。
+          - 2D/3D骨格データ抽出：複数カメラ映像からOpenPose・三角測量・RANSACにより3D骨格を抽出するアプリを開発。再投影2Dデータの高精度性に着目した半自動アノテーションツールも開発。
+          - その他：自動運転向けマップ技術の調査（論文・企業動向の両面）、PointCLIPによる3Dデータ活用検証、GPUサーバ2台の運用、メンバー4名の進捗管理。
       - layout: left
         title: 東京ガスiネット
         # link: www.tg-inet.co.jp
         # link_text: www.tg-inet.co.jp
         # sub_title: chief engineer
-        caption:  2020.4 - 2023.6
+        caption: 2020.4 - 2023.6
         description: |
-          - システムエンジニアとしてWebアプリケーションフレームワークの運用保守を担当
-
+          - システムエンジニアとしてWebアプリケーションフレームワークの運用保守を担当。博士課程での研究と並行して勤務。
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 慶應義塾大学大学院
-        caption: 2020.4 - 2025.3 単位取得退学予定
+        caption: 2020.4 - 現在
         sub_title: 政策・メディア研究科後期博士課程
         description: | # this will include new lines to allow paragraphs
+          - 2026年6月 博士公聴会合格、2026年9月 博士号（政策・メディア）取得予定
           - 深層学習モデルをエッジでリアルタイム処理するための研究：動画の中で検出対象がないフレームを確率的スケジューリングにより効果的に選択し、計数精度の低下なく、不要なフレームの計算リソースを必要なフレームに割り当てるアルゴリズムの研究開発
       - layout: left
         title: 慶應義塾大学大学院
@@ -99,7 +108,6 @@ content:
         sub_title: 政策・メディア研究科修士課程
         description: | # this will include new lines to allow paragraphs
           - ゴミ計数アルゴリズムの改良及び細粒度ゴミ排出量センシングシステムの実証研究：物体検出モデルやトラッキングアルゴリズムを改良。ゴミセンシングシステムを実際藤沢市を走行する清掃車に導入し、一か月ほど実証実験を行う。また取得したデータを活用するためのプロトタイプの可視化アプリケーションを開発
-
       - layout: left
         title: 慶應義塾大学
         caption: 2016.4 - 2019.3
@@ -109,12 +117,13 @@ content:
   - title: Award
     layout: text
     content: | # this will include new lines to allow paragraphs
-        - [WSN-IoT AWARD 2019 最優秀賞](https://www.sfc.keio.ac.jp/news/013477.html)
-        - [2018年度人工知能学会全国大会全国大会学生奨励賞](https://www.sfc.keio.ac.jp/news/013478.html)
+      - [WSN-IoT AWARD 2019 最優秀賞](https://www.sfc.keio.ac.jp/news/013477.html)
+      - [2018年度人工知能学会全国大会全国大会学生奨励賞](https://www.sfc.keio.ac.jp/news/013478.html)
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Hin Nakazawa. Demo：Stochastic Scheduling to Accelerating Mobile Sensing on Object-sparse Video Data. 22th Conference on the ACM MobiSys.
+      - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Jin Nakazawa. "JumpQ：Stochastic Scheduling to Accelerating Object-detection-driven Mobile Sensing on Object-sparse Video Data", In Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys 25), pp.332-344, 2025. DOI:10.1145/3715014.3722047
+      - Kazuhiro Mikami, Wenhao Huang, Yin Chen, Jin Nakazawa. Demo：Stochastic Scheduling to Accelerating Mobile Sensing on Object-sparse Video Data. 22th Conference on the ACM MobiSys.
       - Wenhao Huang, Kazuhiro Mikami, Yin Chen, and Jin Nakazawa. 2024. Real-Time Image-Based Automotive Sensing： A Practice on Fine-Grained Garbage Disposal. In Proceedings of the 13th International Conference on the Internet of Things (IoT 23). Association for Computing Machinery, New York, NY, USA, 138–145. https://doi.org/10.1145/3627050.362705
       - 三上量弘, 陳 寅, 中澤 仁 “DeepCounter：深層学習を用いた細粒度なゴミ排出量データ収集手法”, 情報処理学会論文誌, 61(1), pp.36 - 48, 2020-01-1
       - Kazuhiro Mikami, Yin Chen, Jin Nakazawa, Yasuhiro Iida, Yasunari Kishimoto, Yu Oya, “DeepCounter Using Deep Learning to Count Garbage Bags, 2018”, In the IEEE 24th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), pp.1-10, 2018, DOI：10.1109/RTCSA.2018.00010
@@ -140,21 +149,16 @@ content:
       - 基本情報技術者資格
   - title: Talks
     layout: text
-
     content: | # this will include new lines to allow paragraphs
       - [細粒度ゴミ排出量データによる持続的都市創造(ORF2019)](https://www.youtube.com/watch?v=wFDw6fpStxs) <img src="images/youtube.png" width="2%">
-
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
