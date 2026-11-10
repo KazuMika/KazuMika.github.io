@@ -45,6 +45,7 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
+# profile:start（生成物。手で編集しない）
 about_content: |
   現在AIエージェントエンジニアリングに関わるエンジニア。2026年9月に博士号（政策・メディア）取得予定（2026年6月 公聴会合格）。業務では、エージェントのハーネス設計・ループ制御、オーケストレーション、マルチエージェント構成、RAGパイプラインの設計・性能検証に従事。それ以前は機械学習・コンピュータビジョン分野の研究開発に携わる。
 
@@ -156,6 +157,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - [細粒度ゴミ排出量データによる持続的都市創造(ORF2019)](https://www.youtube.com/watch?v=wFDw6fpStxs) <img src="images/youtube.png" width="2%">
+# profile:end
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
@@ -167,3 +169,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-seo-tag
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
