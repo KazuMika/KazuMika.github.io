@@ -80,7 +80,7 @@ content:
         # link: www.tecsvc.co.jp/
         # link_text: www.tecsvc.co.jp
         sub_title: チーフエンジニア（サブリーダー）
-        caption: 2023.7 - 2024.5
+        caption: 2023.6 - 2024.5
         description: | # this will include new lines to allow paragraphs
           - 概要：プロトタイプアプリの研究開発、技術調査、モデル検証を担当。
           - 電子回路基板の部品検出：物体検出モデル（YOLOX）で基板上の約30種類の部品を検出。高解像度画像での精度低下に対し画像分割手法を導入し、再現率を約30%向上。
@@ -92,9 +92,9 @@ content:
         # link: www.tg-inet.co.jp
         # link_text: www.tg-inet.co.jp
         # sub_title: chief engineer
-        caption: 2020.4 - 2023.6
+        caption: 2020.4 - 2023.5
         description: |
-          - システムエンジニアとしてWebアプリケーションフレームワークの運用保守を担当。博士課程での研究と並行して勤務。
+          - ソフトウェアエンジニアとしてWebアプリケーションフレームワークの運用保守を担当。博士課程での研究と並行して勤務。
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
