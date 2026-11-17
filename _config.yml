@@ -47,9 +47,9 @@ additional_links:
 about_profile_image: images/profile.jpg
 # profile:start（生成物。手で編集しない）
 about_content: |
-  現在AIエージェントエンジニアリングに関わるエンジニア。2026年9月に博士号（政策・メディア）取得（2026年6月 公聴会合格）。業務では、エージェントのハーネス設計・ループ制御、オーケストレーション、マルチエージェント構成、RAGパイプラインの設計・性能検証に従事。それ以前は機械学習・コンピュータビジョン分野の研究開発に携わる。
+  現在AIエージェントエンジニアリングに関わるエンジニア。2026年9月に博士号（政策・メディア）取得（2026年6月 公聴会合格）。業務では、AIコーディングエージェント（Claude Code）を前提とした開発工程・チーム体制の設計と部内展開、マルチエージェント・RAGによるエージェントの構築と評価、AI-OCR・VLM・CUAによる業務代替の検証に従事。それ以前は機械学習・コンピュータビジョン分野の研究開発に携わる。
 
-  2020年に修士号取得後、東京ガスiネット株式会社にてWebアプリケーションフレームワークの維持管理に従事。同年より慶應義塾大学大学院政策・メディア研究科博士課程に進学し、機械学習とIoTを活用したリアルタイム都市データの取得・利活用を研究。2023年よりティアンドエス株式会社チーフエンジニアとして、深層学習アプリケーションの研究開発およびチームマネジメントを担当。2024年より麗澤大学研究員として、ゴミ排出行動のリアルタイムセンシングとゲーミフィケーションによる行動変容促進の研究開発に従事。2025年3月よりBIPROGY株式会社にて、AIエージェントやRAGを中心とする生成AIシステムの開発・性能検証に従事。
+  2020年に修士号取得後、東京ガスiネット株式会社にてWebアプリケーションフレームワークの維持管理に従事。同年より慶應義塾大学大学院政策・メディア研究科博士課程に進学し、機械学習とIoTを活用したリアルタイム都市データの取得・利活用を研究。2023年よりティアンドエス株式会社機械学習エンジニアとして、深層学習アプリケーションの研究開発およびチームマネジメントを担当。2024年より麗澤大学研究員として、ゴミ排出行動のリアルタイムセンシングとゲーミフィケーションによる行動変容促進の研究開発に従事。2025年3月よりBIPROGY株式会社にて、AIエージェントやRAGを中心とする生成AIシステムの技術検証と顧客PoCに従事。
 
   2018年度人工知能学会全国大会学生奨励賞、2019年度WSN-IoT AWARD 最優秀賞をそれぞれ受賞。2019年度Sylff Fellowship、2021年度博士課程学生研究支援プログラム採択。2017年度学部・大学院修士4年一貫教育プログラムに採択され、学士号を3年、修士号を1年で取得。
 content:
@@ -61,9 +61,12 @@ content:
         sub_title: AIエージェントエンジニア
         caption: 2025.3 - 現在
         description: | # this will include new lines to allow paragraphs
-          - 概要：生成AIを活用したシステムの開発および性能検証を担当。AzureおよびAWS上での設計・実装まで一貫して従事。
-          - AIエージェント開発：Claude Codeを活用した開発を推進。エージェントのハーネス設計・ループ制御（harness & loop engineering）、オーケストレーション、マルチエージェント構成の構築を担当。
+          - 概要：生成AIを活用したシステムの技術検証と顧客PoCを担当。Azure・AWS上での設計から実装・評価まで一貫して従事。
+          - AIコーディングエージェントを前提とした開発：Claude Codeの指示ファイル・skills・hooks・権限設定によるハーネスを設計・運用し、計画・承認・テスト先行の実装・レビューの開発手順を確立。自律度に応じたループ制御（停止条件・予算の上限・承認点）を設計（harness & loop engineering）。
+          - 開発工程・チーム体制の体系化：「生成AIの導入後の律速は生成ではなく検証とレビュー」との分析に基づき、AIコーディングエージェントによる開発工程と、情報共有・チーム体制の体系を作成し、部内へ展開。
+          - AIエージェントの構築と評価：Microsoft Copilot Studioで社内ナレッジRAGとマルチエージェントを構築し、Direct Line APIによる無人評価で検証。開発ツール30種を評価し、ツール選定のフレームワークを作成。
           - RAGシステムの開発・性能検証：セマンティック検索やリランキングを組み込んだRAGパイプラインを設計・実装し、評価フレームワーク（DeepEval）を用いて検索・生成品質を定量的に検証。
+          - 生成AIによる業務代替の検証：顧客PoCで、AI-OCR・VLM・CUAとRPAによる業務代替の可否を検証し、方式間の比較評価を担当。
       - layout: left
         title: 麗澤大学
         # link: www.reitaku-u.ac.jp/
@@ -79,7 +82,7 @@ content:
         title: ティアンドエス
         # link: www.tecsvc.co.jp/
         # link_text: www.tecsvc.co.jp
-        sub_title: チーフエンジニア（サブリーダー）
+        sub_title: 機械学習エンジニア
         caption: 2023.6 - 2024.5
         description: | # this will include new lines to allow paragraphs
           - 概要：プロトタイプアプリの研究開発、技術調査、モデル検証を担当。
@@ -146,13 +149,16 @@ content:
   - title: Skill
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Python(7年程度、主に機械学習分野)
-      - Linux(7年程度、個人のGPUサーバを３台所持し維持管理)
-      - Git(5年程度)
+      - 生成AI・AIエージェント：LLM、VLM、CUA、RAG、マルチエージェント、プロンプトエンジニアリング、Claude Code、Copilot Studio、LangChain、LangGraph、DeepEval
+      - 機械学習・画像認識：物体検出（YOLOv5、YOLOX）、追跡（IoU、SORT）、3D骨格推定（OpenPose）、画像生成（DreamBooth、pix2pix、DeepFillv2）、深度推定（Monodepth2）
+      - エッジAI：組込みGPU（Jetson）上の推論パイプライン、推論頻度の制御
+      - クラウド：Azure（OpenAI、AI Document Intelligence、Container Apps、DevOps、Bicep）、AWS（Bedrock、Lambda、S3、API Gateway、DynamoDB、OpenSearch）
+      - 言語・フレームワーク：Python（FastAPI、Gradio、Streamlit、python-pptx）、C#（.NET、WinForms）
+      - 開発手法・環境：テスト駆動開発、CI（Azure DevOps）、Git、Linux、GPUサーバの構築・運用
       - RDBMS(MySQL,PostgreSQL,SQLite)
-      - TOEIC 935
-      - G検定
-      - 基本情報技術者資格
+      - TOEIC 935（2016年10月）
+      - G検定（2023年4月）
+      - 基本情報技術者資格（2023年4月）
   - title: Talks
     layout: text
     content: | # this will include new lines to allow paragraphs
